@@ -1,14 +1,16 @@
 {
-  "name": "template",
-  "version": "0.0.1",
+  "name": "waline-nitro",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "vercel build"
+    "dev": "nitro dev",
+    "build": "nitro build",
+    "export": "nitro export"
   },
   "dependencies": {
-    "@waline/vercel": "latest"
+    "waline": "^3.0.0"
   },
   "devDependencies": {
-    "vercel": "latest"
+    "nitropack": "^2.10.0"
   }
 }
