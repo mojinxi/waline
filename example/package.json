@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nitro dev",
-    "build": "nitro build",
-    "export": "nitro export"
+    "dev": "pnpm exec nitro dev",
+    "build": "pnpm exec nitro build",
+    "export": "pnpm exec nitro export"
   },
   "dependencies": {
     "waline": "^3.0.0"
